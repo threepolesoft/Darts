@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Darts.ViewModels"
+             x:Class="Darts.Views.Equipment"
+             Title="Equipment of Darts"
+             >
+
+    <StackLayout>
+        
+        <Label
+            Text="Equipment of Darts"
+            TextColor="Green"
+            FontSize="22"
+            Margin="0, 10, 0, 10"
+            HorizontalTextAlignment="Center"
+            />
+
+        <ScrollView Orientation="Vertical" VerticalOptions="Start" Padding="5">
+
+            <StackLayout Orientation="Vertical">
+                
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻"
+                        TextColor="Red"
+                        FontSize="20"
+                        Margin="0, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="60"
+                        />
+                    <BoxView WidthRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                    <Label
+                        Text="Darts only requires a board and the darts themselves, this limited list of equipment being one of the reasons for its success. The board that is now used as standard was created in 1896 by a Lancashire carpenter with the aim of penalising inaccurate throwing by keeping large numbers apart and bordering them with small numbers. Whilst mathematicians have long argued over the best board layout to minimise the reward for inaccurate efforts, the current design is actually pretty good."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻"
+                        TextColor="Red"
+                        FontSize="20"
+                        Margin="0, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="60"
+                        />
+                    <BoxView WidthRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                    <Label
+                        Text="The board itself is made from compressed sisal fibres and despite modern electronic versions is now the accepted norm. In the early days after the First World War darts was played using a heavy, solid wood board, normally made from elm and subsequently clay versions were trialled."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻"
+                        TextColor="Red"
+                        FontSize="20"
+                        Margin="0, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="60"
+                        />
+                    <BoxView WidthRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                    <Label
+                        Text="The standard board is 17¾ inches (451mm) in diameter and is divided into 20 radial sections by thin metal wire. The sections are numbered from 1-20 and contain a thin section at the outer edge (double) and slightly smaller area midway towards the centre (treble). The bullseye or ''bull'' is a small circle, usually red, at the very centre of the board and is surrounded by the larger, green, outer bull."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻"
+                        TextColor="Red"
+                        FontSize="20"
+                        Margin="0, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="60"
+                        />
+                    <BoxView WidthRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                    <Label
+                        Text="The darts are usually used using a combination of metal, nylon and plastic for the points, barrels, shafts and fletching. The exact style and make-up of the dart will vary according to the player's style and ability (or what pub you're in!) but they must weigh no more than 50g and be no longer than 300mm."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+
+    </StackLayout>
+</ContentPage>

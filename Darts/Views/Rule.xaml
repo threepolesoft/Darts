@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Darts.ViewModels"
+             x:Class="Darts.Views.Rule"
+             Title="Rule of Darts"
+             >
+
+
+    <StackLayout>
+        <Label
+            Text="The rules of darts are very simple and have basically been discussed in previous sections. Some key points to note are as follows:"
+            TextColor="Green"
+            FontSize="22"
+            Margin="0, 10, 0, 10"
+            HorizontalTextAlignment="Center"
+            />
+
+        <ScrollView Orientation="Vertical" VerticalOptions="Start" Padding="5">
+
+            <StackLayout Orientation="Vertical">
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="Which player takes the first turn in a game is decided by throwing a single dart each with the nearest to the bull taking the first throw."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="A throw consists of throwing three darts unless the game is won in fewer."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 00, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="Only darts in the board at the end of the throw are counted and ones that bounce or fall out cannot be thrown again."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 00, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+                    
+                    <Label
+                        Text="If a player scores more than their remaining points total their throw ends and is scored zero (for example if they have 16 remaining and accidentally hit a 20 with their first dart)."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="The centre of the bull should be exactly 5ft 8in (1.73 metres) high. "
+                        TextColor="Black"
+                        HorizontalOptions="Start"
+                        HorizontalTextAlignment="Start"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="♻️"
+                        TextColor="Black"
+                        FontSize="20"
+                        Margin="20, 0, 0, 0"
+                        VerticalOptions="Center"
+                        WidthRequest="50"
+                        />
+
+                    <Label
+                        Text="Darts are thrown from a clearly marked toe-line, often called the oche, at least 7ft 9 ¼ in from the board, measured horizontally."
+                        TextColor="Black"
+                        FontSize="20"
+                        />
+                </StackLayout>
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+
+    </StackLayout>
+    
+
+</ContentPage>
